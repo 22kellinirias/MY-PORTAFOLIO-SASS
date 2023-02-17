@@ -1,0 +1,21 @@
+elemet.style{
+  background-image: url(assets/css/meli-bg);
+}
+
+
+.hero{
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.bg-img{
+  background-position: center;
+  position: fixed;
+  
+
+}
+.hero-title{
+  color: rgb(222, 239, 241);
+  font-weight: 600;
+  font-size: 4rem;
+}
