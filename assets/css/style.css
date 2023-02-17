@@ -1,21 +1,55 @@
-elemet.style{
-  background-image: url(assets/css/meli-bg);
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.body{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.contenedor{
+  margin-top: 5%;
+  
+}
+
+.contenedor_principal{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  color: black;
+  font-style: unset;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-.hero{
-  height: 100vh;
-  background-repeat: no-repeat;
-}
 
-.bg-img{
-  background-position: center;
-  position: fixed;
+#card__img{
+      width: 300px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .card-proyecto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
 
+
+
+summary{
+  justify-content: right;
 }
-.hero-title{
-  color: rgb(222, 239, 241);
-  font-weight: 600;
-  font-size: 4rem;
+
+.lateral {
+  height: 100vh;
+  position: fixed;
+}
+
+.lateral > div {
+  height: 100%;
+}
+
+main {
+  margin-left: 400px;
 }
