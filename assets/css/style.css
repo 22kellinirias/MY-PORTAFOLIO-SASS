@@ -9,33 +9,32 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 
 .contenedor{
   margin-top: 5%;
-  
 }
 
-.contenedor_principal{
-  background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  color: black;
-  font-style: unset;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+#perfil{
+      width: 100px;
+      margin-left: 25%;
+  }
+
+.h1{
+  text-decoration: hotpink;
+  font-style: italic;
+  background: -webkit-linear-gradient(#07eee2, #ec21a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-
-#card__img{
-      width: 300px;
+  .card{
+      width: 100%;
+      border-radius: 13%;
       display: flex;
       justify-content: center;
+      
   }
 
-  .card-proyecto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-
-
+.iconos{
+  margin-left: 38%
+}
 
 summary{
   justify-content: right;
@@ -53,3 +52,20 @@ summary{
 main {
   margin-left: 400px;
 }
+
+.img1{
+  width: 100px;
+  border-radius: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*#  sourceMappingURL=style.css.map */
