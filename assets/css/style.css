@@ -12,6 +12,8 @@ background: radial-gradient(circle, rgb(165, 107, 135) 0%, rgb(147, 132, 216) 10
 }
 
 
+
+
 #caja{
   height: 80vh;
 }
@@ -76,9 +78,9 @@ main {
 
 
 #imagen{
-  width: 400px;
+  width: 450px;
   height: 200px;
-  border-radius: 45%;
+  border-radius: 15%;
 }
 
 .mode{
@@ -86,6 +88,27 @@ main {
 }
 
 
+.demo{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.lemi{
+  font-style: italic;
+  font-family: cursive;
+  font: 1em sans-serif;
+}
+#sali{
+  background: -webkit-linear-gradient(#181a18, #1237a6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.astro{
+  background: -webkit-linear-gradient(#181a18, #f709db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
